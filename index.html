@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Remote Vues</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/site.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="navbar navbar-dark bg-dark">
+        <a href="/" class="navbar-brand">
+          <h3>Remote Vues</h3>
+        </a>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <div id="theApp">
+          <remote-vue></remote-vue>
+      </div>
+    </section>
+    <footer>
+      <div class="centered">&copy; 2017 Remote Vues</div>
+    </footer>
+
+  </div>
+</body>
+<script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/node_modules/vue/dist/vue.js"></script>
+<script src="/node_modules/axios/dist/axios.min.js"></script>
+<script src="/js/index.js"></script>
+
+</html>

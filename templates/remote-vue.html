@@ -1,0 +1,11 @@
+<div>
+  <div>Testing: {{ foo }}</div>
+  <div v-for="item in items">
+    <div class="card p-1 m-1">
+      {{ item.name }} - Aged {{ item.age }}
+      <div>
+        <button class="btn btn-sm btn-primary" v-on:click="onSave(item)">Check</button>
+      </div>
+    </div>
+  </div>
+</div>
